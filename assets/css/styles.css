@@ -1,0 +1,98 @@
+/* Estilos personalizados para el conversor de unidades físicas */
+
+body {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.header-title {
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.converter-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.converter-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  background-color: #3498db;
+  color: white;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.form-select:focus,
+.form-control:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+}
+
+.btn-primary {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.result-container {
+  padding: 15px;
+  background-color: #eaf2f8;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.result-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.result-formula {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.magnitude-icon {
+  font-size: 2rem;
+  margin-right: 10px;
+  color: #3498db;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+/* Animaciones */
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
